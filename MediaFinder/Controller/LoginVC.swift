@@ -45,11 +45,6 @@ class LoginVC: UIViewController {
         self.navigationController?.pushViewController(signUpVC, animated: true)
     }
     
-//    private func goToProfileScreen() {
-//        let profileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProfileVC") as! ProfileVC
-//        self.navigationController?.pushViewController(profileVC, animated: true)
-//    }
-    
     private func goToMoviesListScreen() {
         self.navigationController?.pushViewController(TabBarVC(), animated: true)
     }
